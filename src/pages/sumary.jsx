@@ -14,17 +14,6 @@ import Image from "next/image"
 import sampleImage from "../../public/bannercastlevania.png"
 
 
-
-
-// const MyImage = () => {
-//   return (
-//     <Image
-//       src={sampleImage}
-//       alt="Picture of Alucard Sypha and Trevor"
-//     />
-//   )
-// }
-
 const useStyles = makeStyles({
   root: {
     height: "auto", 
@@ -48,26 +37,34 @@ export default function Sumary() {
   //const router = useRouter();
 
   const conteudoTxt = React.useContext(CronologiaContext);
-  var title = conteudoTxt.map((c) => c.title);
-  var txt = conteudoTxt.map((c) => c.content);
+  var title = conteudoTxt.map((c) => c.sumary.title);
+  var txt = conteudoTxt.map((c) => c.sumary.content);
+  var img = conteudoTxt.map((c) => c.sumary.img);
   
+  console.log("content: ", conteudoTxt);
+
   const classes = useStyles();
 
   return (
     <Card sx={classes.root}>
       <CardContent className={classes.content}>
-        <div className={classes.img} >
-          <Image                  
+        <div className={classes.img}>
+          <Image
             src={sampleImage}
-            alt="Picture of Alucard Sypha and Trevor"     
+            alt="Picture of Alucard Sypha and Trevor"
             width="1350"
-            height="600" 
+            height="600"
           />
         </div>
-        <Typography gutterBottom variant="h5" component="div" className={classes.txt}>
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          className={classes.txt}
+        >
           <h5>{title}</h5>
         </Typography>
-        <Typography className={classes.txt} >
+        <Typography className={classes.txt}>
           <p>{txt}</p>
         </Typography>
       </CardContent>

@@ -1,10 +1,26 @@
 {
   "cronologia": [
-
-      {
-          "title": "A Historia Castlevania",
-          "content": "Castlevania é uma série de jogos eletrônicos de ação e aventura sombria desenvolvida pela empresa japonesa Konami. A série foi criada no Japão e seu título de estreia foi lançado em 26 de setembro de 1986 para o Famicom Disk System, intitulado Akumajō Dracula.</br>A série é uma das mais famosas franquias de jogos desta empresa e uma das mais vendidas de todos os tempos, com seus títulos se tornando um ponto de referência na criação de jogos de plataforma e ação, originando o subgênero metroidvania. Além de receber vários spin-offs e conversões, a série se expandiu para outras mídias, incluindo comic books e uma série animada da Netflix. A versão Symphony of the Night, a mais aclamado título da série, figura em diversas listas de melhores jogos de todos os tempos, enquanto Super Castlevania IV e Aria of Sorrow são considerados como alguns dos melhores jogos de seus respectivos consoles.</br>A história dos jogos está geralmente ambientada no castelo Castlevania, do Conde Dracula, que é o principal antagonista da série. Inspirado no personagem epônimo do romance de Bram Stoker e na personalidade histórico de Vlad Drakul, o Empalador. Um vampiro e mago, que ressuscita a cada 100 anos e assume o papel de chefe final de quase todos os jogos. A ambientação é em grande parte medieval. Os principais protagonistas são os caçadores de vampiros do clã Belmont, que precisam eliminar a ameaça de Dracula a cada vez que ele renasce, usando armas como o chicote sagrado Vampire Killer, água benta, estacas de madeira, e em alguns casos habilidades mágicas.</br>Em 2010, em uma parceria entre a Konami, MercurySteam, e Kojima Productions, a série passou por um reboot que se iniciou com o jogo Lords of Shadow, o título da série mais bem sucedido até então. Lords of Shadow 2, lançado em 2014, é o último jogo da nova cronologia."
+    {
+      "sumary": {
+        "title": "A Historia Castlevania",
+        "content": "Castlevania é uma série de jogos eletrônicos de ação e aventura sombria desenvolvida pela empresa japonesa Konami. A série foi criada no Japão e seu título de estreia foi lançado em 26 de setembro de 1986 para o Famicom Disk System, intitulado Akumajō Dracula.</br>A série é uma das mais famosas franquias de jogos desta empresa e uma das mais vendidas de todos os tempos, com seus títulos se tornando um ponto de referência na criação de jogos de plataforma e ação, originando o subgênero metroidvania. Além de receber vários spin-offs e conversões, a série se expandiu para outras mídias, incluindo comic books e uma série animada da Netflix. A versão Symphony of the Night, a mais aclamado título da série, figura em diversas listas de melhores jogos de todos os tempos, enquanto Super Castlevania IV e Aria of Sorrow são considerados como alguns dos melhores jogos de seus respectivos consoles.</br>A história dos jogos está geralmente ambientada no castelo Castlevania, do Conde Dracula, que é o principal antagonista da série. Inspirado no personagem epônimo do romance de Bram Stoker e na personalidade histórico de Vlad Drakul, o Empalador. Um vampiro e mago, que ressuscita a cada 100 anos e assume o papel de chefe final de quase todos os jogos. A ambientação é em grande parte medieval. Os principais protagonistas são os caçadores de vampiros do clã Belmont, que precisam eliminar a ameaça de Dracula a cada vez que ele renasce, usando armas como o chicote sagrado Vampire Killer, água benta, estacas de madeira, e em alguns casos habilidades mágicas.</br>Em 2010, em uma parceria entre a Konami, MercurySteam, e Kojima Productions, a série passou por um reboot que se iniciou com o jogo Lords of Shadow, o título da série mais bem sucedido até então. Lords of Shadow 2, lançado em 2014, é o último jogo da nova cronologia.",
+        "img":"public\bannercastlevania.png"
+      },
+      "trevor": {
+        "title": "",
+        "content": "",
+        "img": ""
+      },
+      "sypha": {
+        "title": "",
+        "content": "",
+        "img": ""
+      },
+      "alucard": {
+        "title": "",
+        "content": "",
+        "img": ""
       }
+    }
   ]
-  
 }

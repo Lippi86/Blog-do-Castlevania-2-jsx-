@@ -18,14 +18,13 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
-import Home from '../../pages/sumary';
+import Sumary from '../../pages/sumary';
 import Alucard from '../../pages/alucard';
 import Sypha from '../../pages/sypha';
 import Trevor from '../../pages/trevor';
 import About from '../../pages/about';
 //import { listItemButtonClasses } from '@mui/material';
 import Link from 'next/link'
-import Sumary from '../container/DivContent'
 import SearchAppBar from '../navBar/SearchAppBar';
 
 
@@ -93,7 +92,7 @@ export default function PersistentDrawerLeft() {
   };
 
   const rotas = [
-    Home,
+    Sumary,
     Alucard,
     Sypha,
     Trevor,
@@ -108,24 +107,24 @@ export default function PersistentDrawerLeft() {
   console.log(urlAtual);
 
   function renderElement() {   
-    console.log("entrou : ",urlAtual) 
+    //console.log("entrou : ",urlAtual) 
     
     if(urlAtual === '/alucard'){
      console.log("alucard: ",urlAtual) 
 
       return <div><Alucard /></div>;
     }
-    else if(urlAtual === '/trevor'){
+    if(urlAtual === '/trevor'){
      console.log("Trevor: ",urlAtual) 
 
       return <div><Trevor /> </div>;
     }
-    else if(urlAtual === '/sypha'){
+    if(urlAtual === '/sypha'){
      console.log("Sypha: ",urlAtual) 
 
       return <div><Sypha /></div>;
     }  
-    console.log("caiu no defaul: ",urlAtual) 
+    //console.log("caiu no defaul: ",urlAtual) 
     
     return <div><Sumary /></div>;
   };
@@ -171,7 +170,7 @@ export default function PersistentDrawerLeft() {
         <Divider />
         <Link href="/">
             <List>          
-              <ListItem button component={rotas.Home} to="/" >
+              <ListItem button component={rotas.Sumary} to="/" >
               <ListItemText primary="home"/>             
             </ListItem>            
           </List>
