@@ -1,5 +1,5 @@
 import Image from "next/image"
-import sampleImage from "../../public/Filippi 3.jpeg"
+import sampleImage from "../../public/Filippi perfil 4.jpeg"
 
 
 export default function About() {
